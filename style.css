@@ -23,7 +23,6 @@
 
 .grid-main-container {
     display: grid;
-    height: 100vh;
     grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr;
 }
@@ -416,6 +415,8 @@ ul > li:nth-child(7) {
         width: 100%;
      
         padding: 0px 10px 0px 10px;
+
+        border-bottom: 2px solid orange;
     }
 
     .container-logo-dashboard {
@@ -431,10 +432,24 @@ ul > li:nth-child(7) {
     }
 
     .collapse {
-        display: none;
+        height: 0px;
         flex-direction: column;
+        width: 100vw;
+        
+
+        transition: height 0.5s ease-in-out;
+
+        background-color: #ffffff70;
 
         
+      
+    }
+
+    .collapse.active {
+        height: 100%;
+        padding-bottom: 25px;
+
+
     }
 
     .open-icon {
