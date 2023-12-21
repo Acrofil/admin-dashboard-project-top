@@ -11,27 +11,28 @@
 <body>
 
     <div class="grid-main-container">
-        <div class="sidebar">
-            <div class="container-logo-dashboard">
-                <span class="logo-container"><img class="logo" src="odin-lined.png" alt="">Dashboard</span>
-                <span class="mdi mdi-menu-open open-icon close-icon"></span>
+        
+        <section class="sidebar">
+                <div class="container-logo-dashboard">
+                    <span class="logo-container"><img class="logo" src="odin-lined.png" alt="">Dashboard</span>
+                    <span class="mdi mdi-menu-open open-icon close-icon"></span>
+                </div>
+                <nav class="collapse">
+                    <ul class="" >
+                        <li><span class="mdi mdi-home-account"></span><a href="" aria-label="home">Home</a></li>
+                        <li><span class="mdi mdi-card-account-details"></span><a href="" aria-label="profile">Profile</a></li>
+                        <li><span class="mdi mdi-message-text-fast"></span><a href="" aria-label="messages">Messages</a></li>
+                        <li><span class="mdi mdi-history"></span><a href="" aria-label="history">History</a></li>
+                        <li><span class="mdi mdi-file-tree"></span><a href="" aria-label="tasks">Tasks</a></li>
+                        <li><span class="mdi mdi-account-group"></span><a href="" aria-label="communities">Communities</a></li>
+                        <li><span class="mdi mdi-cog"></span><a href="" aria-label="settings">Settings</a></li>
+                        <li><span class="mdi mdi-face-agent"></span><a href="" aria-label="support">Support</a></li>
+                        <li><span class="mdi mdi-shield-check"></span><a href="" aria-label="privacy">Privacy</a></li>
+                    </ul>
+                </nav>
+        </section>
 
-            </div>
-            <nav class="collapse">
-                <ul class="" >
-                    <li><span class="mdi mdi-home-account"></span>Home</li>
-                    <li><span class="mdi mdi-card-account-details"></span>Profile</li>
-                    <li><span class="mdi mdi-message-text-fast"></span>Messages</li>
-                    <li><span class="mdi mdi-history"></span>History</li>
-                    <li><span class="mdi mdi-file-tree"></span>Tasks</li>
-                    <li><span class="mdi mdi-account-group"></span>Communities</li>
-                    <li><span class="mdi mdi-cog"></span>Settings</li>
-                    <li><span class="mdi mdi-face-agent"></span>Support</li>
-                    <li><span class="mdi mdi-shield-check"></span>Privacy</li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header">
+        <section class="header">
             <div class="header-search-bar">
                 <div class="header-search-bar-container">
                     <span class="mdi mdi-magnify"></span>
@@ -61,86 +62,99 @@
                     <button class="quick-buttons">Share</button>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Main content -->
 
-        <div class="main-content">
-
+        <main class="main-content">
+            <!-- Cards -->
             <div class="cards-container"> 
                 <div class="heading-main-content">
                     <h2>Your Projects</h2>
                 </div>
                 <div class="cards">
                     <div class="card">
-                        <div class="card-heading"><span>Super Cool Project</span></div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
-                        </div>
-                        <div class="card-buttons">
-                            <span class="mdi mdi-star-plus"></span>
-                            <span class="mdi mdi-eye-plus"></span>
-                            <span class="mdi mdi-share-variant"></span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-heading"><span>Super Cool Project</span></div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
-                        </div>
-                        <div class="card-buttons">
-                            <span class="mdi mdi-star-plus"></span>
-                            <span class="mdi mdi-eye-plus"></span>
-                            <span class="mdi mdi-share-variant"></span>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="card-heading"><span>Super Cool Project</span></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem f ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="card-buttons">
+                                <a href=""><span class="mdi mdi-star-plus"><span aria-label="favorite"></span></span></a>
+                                <a href=""><span class="mdi mdi-eye-plus"><span aria-label="view more"></span></span></a>
+                                <a href=""><span class="mdi mdi-share-variant"> <span aria-label="share"></span></span></a>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-heading"><span>Super Cool Project</span></div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
-                        </div>
-                        <div class="card-buttons">
-                            <span class="mdi mdi-star-plus"></span>
-                            <span class="mdi mdi-eye-plus"></span>
-                            <span class="mdi mdi-share-variant"></span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-heading"><span>Super Cool Project</span></div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
-                        </div>
-                        <div class="card-buttons">
-                            <span class="mdi mdi-star-plus"></span>
-                            <span class="mdi mdi-eye-plus"></span>
-                            <span class="mdi mdi-share-variant"></span>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="card-heading"><span>Less Cool Project</span></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adip ipsum dolor, sit amet consectetur adipisicing elit. Ex aspernatur ratione vitae vero! Totam, provident.</p>
+                            </div>
+                            <div class="card-buttons">
+                                <a href=""><span class="mdi mdi-star-plus"><span aria-label="favorite"></span></span></a>
+                                <a href=""><span class="mdi mdi-eye-plus"><span aria-label="view more"></span></span></a>
+                                <a href=""><span class="mdi mdi-share-variant"><span aria-label="share"></span></a>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-heading"><span>Super Cool Project</span></div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
-                        </div>
-                        <div class="card-buttons">
-                            <span class="mdi mdi-star-plus"></span>
-                            <span class="mdi mdi-eye-plus"></span>
-                            <span class="mdi mdi-share-variant"></span>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="card-heading"><span>Imposible App</span></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptate mollitia at nisi quos. Ipsam?</p>
+                            </div>
+                            <div class="card-buttons">
+                                <a href=""><span class="mdi mdi-star-plus"><span aria-label="favorite"></span></span></a>
+                                <a href=""><span class="mdi mdi-eye-plus"><span aria-label="view more"></span></span></a>
+                                <a href=""><span class="mdi mdi-share-variant"><span aria-label="share"></span></a>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-heading"><span>Super Cool Project</span></div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="card-heading"><span>Easy Peasy App</span></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur volup amet consectetur adipisicing elit. Alias, itaque.</p>     
+                            </div>
+                            <div class="card-buttons">
+                                <a href=""><span class="mdi mdi-star-plus"><span aria-label="favorite"></span></span></a>
+                                <a href=""><span class="mdi mdi-eye-plus"><span aria-label="view more"></span></span></a>
+                                <a href=""><span class="mdi mdi-share-variant"><span aria-label="share"></span></a>
+                            </div>
                         </div>
-                        <div class="card-buttons">
-                            <span class="mdi mdi-star-plus"></span>
-                            <span class="mdi mdi-eye-plus"></span>
-                            <span class="mdi mdi-share-variant"></span>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="card-heading"><span>Ad Blocker</span></div>    
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pariatur voluptatem fuga?</p>
+                            </div>
+                            <div class="card-buttons">
+                                <a href=""><span class="mdi mdi-star-plus"><span aria-label="favorite"></span></span></a>
+                                <a href=""><span class="mdi mdi-eye-plus"><span aria-label="view more"></span></span></a>
+                                <a href=""><span class="mdi mdi-share-variant"><span aria-label="share"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="card-heading"><span>Money Maker</span></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo sit? Ex pait a dolor omnis nostrum iste consequatur praesentium facere eaque voluptatum et!</p>
+                            </div>
+                            <div class="card-buttons">
+                                <a href=""><span class="mdi mdi-star-plus"><span aria-label="favorite"></span></span></a>
+                                <a href=""><span class="mdi mdi-eye-plus"><span aria-label="view more"></span></span></a>
+                                <a href=""><span class="mdi mdi-share-variant"><span aria-label="share"></span></a>
+                            </div>
                         </div>
                     </div>
                 </div>  
             </div>
 
+            <!-- Announcements & Trending-->
             <div class="announcements-container">
                 <div class="heading-announcements">
                     <h3>Announcements</h3>
@@ -174,31 +188,31 @@
                         <img class="trending-img" src="thor.jpg" alt="">
                         <div class="trending-item-body">
                             <p>@thor</p>
-                            <p>Super Cool Project</p>
+                            <p>No Traffic Maker</p>
                         </div>
                     </div>
                     <div class="trending-item">
                         <img class="trending-img" src="odin.webp" alt="">
                         <div class="trending-item-body">
-                            <p>@loki</p>
+                            <p>@odin</p>
                             <p>Super Cool Project</p></div>
                     </div>
                     <div class="trending-item">
                         <img class="trending-img" src="loki.avif" alt="">
                         <div class="trending-item-body">
-                            <p>@odin</p>
-                            <p>Super Cool Project</p></div>
+                            <p>@loki</p>
+                            <p>World Peace Builder</p></div>
                     </div>
                     <div class="trending-item">
                         <img class="trending-img" src="freya.avif" alt="">
                         <div class="trending-item-body">
                             <p>@freya</p>
-                            <p>Super Cool Project</p></div>
+                            <p>Life Changing App</p></div>
                     </div>
                 </div>
             </div>
                 
-        </div>
+        </main>
  
     
 </body>

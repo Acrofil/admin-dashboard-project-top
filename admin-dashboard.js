@@ -1,5 +1,5 @@
 
-const collapseMenu = document.querySelector(".collapse");
+const collapseMenu = document.querySelector("nav");
 let menuBtn = document.querySelector(".open-icon");
 
 let isOpen = false;
@@ -23,9 +23,6 @@ menuBtn.addEventListener("click", () => {
 
         isOpen = false;
     };
-
-
-
 });
 
 
