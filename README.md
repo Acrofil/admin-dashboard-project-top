@@ -15,7 +15,6 @@ https://acrofil.github.io/admin-dashboard-project-top/
 ![Admin Dashboard Page](https://github.com/Acrofil/admin-dashboard-project-top/blob/main/admin-dashboard-overview.png)
 
 #### Mobile overview
-![Admin Dashboard Page]() ![Admin Dashboard Page]()
 Close             |  Open
 :-------------------------:|:-------------------------:
 ![](https://github.com/Acrofil/admin-dashboard-project-top/blob/main/mobile1.png)  |  ![](https://github.com/Acrofil/admin-dashboard-project-top/blob/main/mobile2.png)
