@@ -12,8 +12,8 @@ Add some responsivenes to the main content. Is not req to be mobile friendly.
 https://acrofil.github.io/admin-dashboard-project-top/
 
 #### Desktop overview
-![Admin Dashboard Page]()
+![Admin Dashboard Page](https://github.com/Acrofil/admin-dashboard-project-top/blob/main/admin-dashboard-overview.png)
 
 #### Mobile overview
-![Admin Dashboard Page]() ![Admin Dashboard Page]()
+![Admin Dashboard Page](https://github.com/Acrofil/admin-dashboard-project-top/blob/main/mobile1.png) ![Admin Dashboard Page](https://github.com/Acrofil/admin-dashboard-project-top/blob/main/mobile2.png)
 
